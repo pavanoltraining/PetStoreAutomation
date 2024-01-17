@@ -4,7 +4,10 @@
   <artifactId>PetStoreAutomation</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-    
+<properties>
+	<maven.compiler.source>8</maven.compiler.source> <!-- to overcome "Source option 5 is no longer supported. Use 7 or later" error -->
+	<maven.compiler.target>8</maven.compiler.target> <!-- to overcome "Target option 5 is no longer supported. Use 7 or later" error -->
+</properties>
   <build>
     <pluginManagement>
     
